@@ -22,7 +22,7 @@ python game.py
 
 Run AI
 ```sh
-python game.py
+python main.py
 ```
 ## AI Videos
 
