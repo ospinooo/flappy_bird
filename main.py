@@ -79,7 +79,6 @@ def main(genomes, config):
                 quit()
 
         pipe_ind = 0
-        print(len(birds))
         if len(birds) > 0:
             if len(pipes) > 1 and birds[0].x > pipes[0].x + pipes[0].PIPE_TOP.get_width():
                 # if they have passed the pipe the ind will be 1, start focusing on the next pipe
