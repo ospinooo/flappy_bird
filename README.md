@@ -24,6 +24,7 @@ Run AI
 ```sh
 python game.py
 ```
+## AI Videos
 
  <div style="display: table; clear:both">
   <div style="float:left; width:45%">
