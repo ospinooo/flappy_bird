@@ -25,7 +25,7 @@ Run AI
 python game.py
 ```
 
-## Folders
+## Folder Structure
 
 ```sh
 ├── docs
@@ -48,6 +48,14 @@ python game.py
 ├── main.py               # AI
 └── requirements.txt
 ```
+ <div style="display: table; clear:both">
+  <div style="float:left; width:45%">
+    <img src="docs/part1.gif"/>
+  </div>
+  <div style="float:right; width:45%">
+    <img src="docs/part2.gif"/>
+  </div>
+</div> 
 
 
 
