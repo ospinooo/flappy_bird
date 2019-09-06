@@ -140,8 +140,8 @@ def main(genomes, config):
                 nets.pop(x)
                 ge.pop(x)
 
-        if score > 50:
-            break
+        if score > 20:
+            run = False
 
         base.move()
         draw_window(win, birds, pipes, base, score, GEN)
