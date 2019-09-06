@@ -1,19 +1,54 @@
+<h1 align="center">Welcome to flappy_bird 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
+
+> Flappy bird AI is a project i did to learn about pygame, and the basics of games developement. I added the AI that learns to play by itself. Deeplearning and genetic algorithms are applied. The neat library is used.
 
 
-# Flappy Bird
+
+## Install
+
+```sh
+pip install -r requirements.txt
+```
+
+## Folders
+
+```sh
+├── docs
+│   └── stanley.cec02.pdf # Neat Paper
+├── flappy_bird           # Flappy bird module (Objects)
+│   ├── __init__.py
+│   ├── base.py 
+│   ├── bird.py
+│   └── pipe.py
+├── img                   # Images 
+│   ├── base.png
+│   ├── bg.png
+│   ├── bird1.png
+│   ├── bird2.png
+│   ├── bird3.png
+│   └── pipe.png
+├── README.md
+├── config.txt            # Neat configuration, learning algorithm
+├── game.py               # just the game
+├── main.py               # AI
+└── requirements.txt
+```
 
 
 
-- Inputs
-  - Bird y, 
-  - Top Pipe
-  - Bottom Pipe
-- Outputs (1 neuronal network)
-  - Jump
-- Activation Function
-- Population Size 
-  - How many birds are we running every generation (100)
-  - Genetic algorithm until we get perfect birds.
-- Fitness Function
-  - Score: how far we get.
-- Max generation. 30 too far.
+## Author
+
+👤 **Pablo Ospino Sánchez**
+
+* Github: [@ospinooo](https://github.com/ospinooo)
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
