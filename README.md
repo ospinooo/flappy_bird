@@ -13,6 +13,18 @@
 pip install -r requirements.txt
 ```
 
+## Usage
+
+Run game
+```sh
+python game.py
+```
+
+Run AI
+```sh
+python game.py
+```
+
 ## Folders
 
 ```sh
