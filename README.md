@@ -38,7 +38,7 @@ python main.py
 ## Folder Structure
 
 ```sh
-├── docs
+├── docs                  # Sphinx documentation
 │   └── stanley.cec02.pdf # Neat Paper
 ├── flappy_bird           # Flappy bird module (Objects)
 │   ├── __init__.py
@@ -59,7 +59,14 @@ python main.py
 └── requirements.txt
 ```
 
+## Documentation
 
+```sh
+cd docs
+make html
+cd ..
+```
+It will generate all the html files. Documentation under Folder docs/_build/html
 
 
 ## Author
